@@ -1,467 +1,443 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Antoine THOMANN | Portfolio RT</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antoine THOMANN | Portfolio RT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
 
-	<nav class="navbar">
-		<div class="nav-content">
-			<span class="logo">AT<span class="accent">.</span></span>
-			<ul class="nav-links">
-				<li><a href="#home">Accueil</a></li>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#competences">Compétences</a></li>
-				<li><a href="#projets">Projets</a></li>
-				<li><a href="#experience">Expérience</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
+    <nav class="navbar">
+        <div class="nav-content">
+            <span class="logo">AT<span class="accent">.</span></span>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-	<header id="home">
-		<div class="header-container reveal">
-			<h1>Antoine <span class="accent">THOMANN</span></h1>
-			<p class="subtitle">Étudiant en BUT Réseaux et Télécommunications (RT)</p>
-			<div class="header-buttons">
-				<a href="#projets" class="btn-primary">Découvrir mes projets</a>
-				<a href="#competences" class="btn-secondary">Voir le référentiel</a>
-			</div>
-		</div>
-	</header>
+    <header id="home">
+        <div class="header-container reveal">
+            <h1>Antoine <span class="accent">THOMANN</span></h1>
+            <p class="subtitle">Étudiant en BUT Réseaux et Télécommunications (RT)</p>
+            <div class="header-buttons">
+                <a href="#projets" class="btn-primary">Découvrir mes projets</a>
+                <a href="#competences" class="btn-secondary">Voir le référentiel</a>
+            </div>
+        </div>
+    </header>
 
-	<main class="container">
+    <main class="container">
+        
+        <section id="about" class="reveal">
+            <h2><span class="accent">#</span> À propos de moi</h2>
+            <div class="card about-card">
+                <p>Bonjour, je m'appelle Antoine, j'ai 19 ans et je suis actuellement étudiant en BUT Réseaux et Télécommunications à l'iut de Colmar. Passionné par la cybersécurité, l'administration système / réseau, je développe mes compétences à travers ma formation et une pratique autodidacte de la cybersécurité et l'administration d'un Homelab.</p>
+            </div>
+        </section>
 
-		<section id="about" class="reveal">
-			<h2><span class="accent">#</span> À propos de moi</h2>
-			<div class="card about-card">
-				<p>Bonjour, je m'appelle Antoine, j'ai 19 ans et je suis actuellement étudiant en BUT Réseaux et Télécommunications à l'iut de Colmar. Passionné par la cybersécurité, l'administration système / réseau, je développe mes compétences à travers ma formation et une pratique autodidacte de la cybersécurité et l'administration d'un Homelab.</p>
-			</div>
-		</section>
+        <section id="competences" class="reveal">
+            <h2><span class="accent">#</span> Référentiel de Compétences</h2>
+            <p class="section-desc">Les trois compétences fondamentales du parcours, déclinées en apprentissages critiques. Cliquez sur un apprentissage pour découvrir le détail et les projets associés.</p>
+            
+            <div class="competence-block">
+                <div class="comp-header">
+                    <span class="comp-num">01</span>
+                    <div class="comp-titles">
+                        <h3>Administrer</h3>
+                        <p class="comp-subtitle">Administrer les réseaux et l'Internet</p>
+                    </div>
+                </div>
+                <div class="ce-grid">
+                    <div class="ce-card" data-target-ce="CE1.01">
+                        <div class="ce-top">
+                            <h4>CE1.01 <span class="ce-sub">choisir les solutions et technologies réseaux adaptées</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Comparer puis sélectionner une technologie réseau pertinente selon le contexte et les contraintes.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE1.02">
+                        <div class="ce-top">
+                            <h4>CE1.02 <span class="ce-sub">respecter les principes fondamentaux de la sécurité informatique</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Appliquer les bonnes pratiques de sécurité : pare-feu, accès, chiffrement, segmentation.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE1.03">
+                        <div class="ce-top">
+                            <h4>CE1.03 <span class="ce-sub">utiliser une approche rigoureuse pour la résolution des dysfonctionnements</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Diagnostiquer une panne méthodiquement : observation, hypothèses, tests, résolution.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE1.04">
+                        <div class="ce-top">
+                            <h4>CE1.04 <span class="ce-sub">respecter les règles métiers</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Se conformer aux normes et conventions du domaine : adressage, nommage, documentation.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE1.05">
+                        <div class="ce-top">
+                            <h4>CE1.05 <span class="ce-sub">assurer une veille technologique</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Suivre les évolutions du domaine et explorer les technologies émergentes.</p>
+                        <span class="proj-count">Détail 1 projet</span>
+                    </div>
+                </div>
+            </div>
 
-		<section id="competences" class="reveal">
-			<h2><span class="accent">#</span> Référentiel de Compétences</h2>
-			<p class="section-desc">Les trois compétences fondamentales du parcours, déclinées en apprentissages critiques. Cliquez sur un apprentissage pour découvrir le détail et les projets associés.</p>
+            <div class="competence-block">
+                <div class="comp-header">
+                    <span class="comp-num">02</span>
+                    <div class="comp-titles">
+                        <h3>Connecter</h3>
+                        <p class="comp-subtitle">Connecter les entreprises et les usagers</p>
+                    </div>
+                </div>
+                <div class="ce-grid">
+                    <div class="ce-card" data-target-ce="CE2.01">
+                        <div class="ce-top">
+                            <h4>CE2.01 <span class="ce-sub">communiquer avec le client et les différents acteurs impliqués, parfois en anglais</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Recueillir un besoin, présenter à l'oral, échanger techniquement, y compris en anglais.</p>
+                        <span class="proj-count">Détail 1 projet</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE2.02">
+                        <div class="ce-top">
+                            <h4>CE2.02 <span class="ce-sub">faire preuve d'une démarche scientifique</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Analyse par l'expérimentation, la mesure et le raisonnement structuré.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE2.03">
+                        <div class="ce-top">
+                            <h4>CE2.03 <span class="ce-sub">choisir les solutions et technologies adaptées</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Justifier un choix technologique répondant au besoin : coût, performance, faisabilité.</p>
+                        <span class="proj-count">Détail 1 projet</span>
+                    </div>
+                    <div class="ce-card disabled">
+                        <div class="ce-top">
+                            <h4>CE2.04 <span class="ce-sub">proposer des solutions respectueuses de l'environnement</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Intégrer une démarche éco-responsable : sobriété, optimisation, numérique responsable.</p>
+                        <span class="proj-count">Détail 0 projet</span>
+                    </div>
+                </div>
+            </div>
 
-			<div class="competence-block">
-				<div class="comp-header">
-					<span class="comp-num">01</span>
-					<div class="comp-titles">
-						<h3>Administrer</h3>
-						<p class="comp-subtitle">Administrer les réseaux et l'Internet</p>
-					</div>
-				</div>
-				<div class="ce-grid">
-					<div class="ce-card" data-target-ce="CE1.01">
-						<div class="ce-top">
-							<h4>CE1.01 <span class="ce-sub">choisir les solutions et technologies réseaux adaptées</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Comparer puis sélectionner une technologie réseau pertinente selon le contexte et les contraintes.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE1.02">
-						<div class="ce-top">
-							<h4>CE1.02 <span class="ce-sub">respecter les principes fondamentaux de la sécurité informatique</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Appliquer les bonnes pratiques de sécurité : pare-feu, accès, chiffrement, segmentation.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE1.03">
-						<div class="ce-top">
-							<h4>CE1.03 <span class="ce-sub">utiliser une approche rigoureuse pour la résolution des dysfonctionnements</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Diagnostiquer une panne méthodiquement : observation, hypothèses, tests, résolution.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE1.04">
-						<div class="ce-top">
-							<h4>CE1.04 <span class="ce-sub">respecter les règles métiers</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Se conformer aux normes et conventions du domaine : adressage, nommage, documentation.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE1.05">
-						<div class="ce-top">
-							<h4>CE1.05 <span class="ce-sub">assurer une veille technologique</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Suivre les évolutions du domaine et explorer les technologies émergentes.</p>
-						<span class="proj-count">Détail 1 projet</span>
-					</div>
-				</div>
-			</div>
+            <div class="competence-block">
+                <div class="comp-header">
+                    <span class="comp-num">03</span>
+                    <div class="comp-titles">
+                        <h3>Programmer</h3>
+                        <p class="comp-subtitle">Créer des outils et applications informatiques pour les R&T</p>
+                    </div>
+                </div>
+                <div class="ce-grid">
+                    <div class="ce-card" data-target-ce="CE3.01">
+                        <div class="ce-top">
+                            <h4>CE3.01 <span class="ce-sub">être à l'écoute des besoins du client</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Recueillir et formaliser un besoin avant de développer une solution sur mesure.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE3.02">
+                        <div class="ce-top">
+                            <h4>CE3.02 <span class="ce-sub">documenter le travail réalisé</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Produire une documentation claire : README, commentaires, guides, diagrammes.</p>
+                        <span class="proj-count">Détail 3 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE3.03">
+                        <div class="ce-top">
+                            <h4>CE3.03 <span class="ce-sub">utiliser les outils numériques à bon escient</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Maîtriser les outils (Git, IDE, conteneurs, CI/CD) au service de la qualité.</p>
+                        <span class="proj-count">Détail 1 projet</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE3.04">
+                        <div class="ce-top">
+                            <h4>CE3.04 <span class="ce-sub">choisir les outils de développement adaptés</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Justifier le choix d'un langage, framework ou bibliothèque selon le problème.</p>
+                        <span class="proj-count">Détail 3 projets</span>
+                    </div>
+                    <div class="ce-card" data-target-ce="CE3.05">
+                        <div class="ce-top">
+                            <h4>CE3.05 <span class="ce-sub">intégrer les problématiques de sécurité</span></h4> 
+                            <span class="arrow">↗</span>
+                        </div>
+                        <p>Penser la sécurité dès la conception : validation, secrets, authentification, données.</p>
+                        <span class="proj-count">Détail 2 projets</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			<div class="competence-block">
-				<div class="comp-header">
-					<span class="comp-num">02</span>
-					<div class="comp-titles">
-						<h3>Connecter</h3>
-						<p class="comp-subtitle">Connecter les entreprises et les usagers</p>
-					</div>
-				</div>
-				<div class="ce-grid">
-					<div class="ce-card" data-target-ce="CE2.01">
-						<div class="ce-top">
-							<h4>CE2.01 <span class="ce-sub">communiquer avec le client et les différents acteurs impliqués, parfois en anglais</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Recueillir un besoin, présenter à l'oral, échanger techniquement, y compris en anglais.</p>
-						<span class="proj-count">Détail 1 projet</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE2.02">
-						<div class="ce-top">
-							<h4>CE2.02 <span class="ce-sub">faire preuve d'une démarche scientifique</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Analyse par l'expérimentation, la mesure et le raisonnement structuré.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE2.03">
-						<div class="ce-top">
-							<h4>CE2.03 <span class="ce-sub">choisir les solutions et technologies adaptées</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Justifier un choix technologique répondant au besoin : coût, performance, faisabilité.</p>
-						<span class="proj-count">Détail 1 projet</span>
-					</div>
-					<div class="ce-card disabled">
-						<div class="ce-top">
-							<h4>CE2.04 <span class="ce-sub">proposer des solutions respectueuses de l'environnement</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Intégrer une démarche éco-responsable : sobriété, optimisation, numérique responsable.</p>
-						<span class="proj-count">Détail 0 projet</span>
-					</div>
-				</div>
-			</div>
+        <section id="projets" class="reveal">
+            <div class="projets-section-header">
+                <h2><span class="accent">#</span> Mes Réalisations</h2>
+                <button id="reset-filter-btn" class="btn-reset hidden">✖ Réinitialiser le filtre</button>
+            </div>
 
-			<div class="competence-block">
-				<div class="comp-header">
-					<span class="comp-num">03</span>
-					<div class="comp-titles">
-						<h3>Programmer</h3>
-						<p class="comp-subtitle">Créer des outils et applications informatiques pour les R&T</p>
-					</div>
-				</div>
-				<div class="ce-grid">
-					<div class="ce-card" data-target-ce="CE3.01">
-						<div class="ce-top">
-							<h4>CE3.01 <span class="ce-sub">être à l'écoute des besoins du client</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Recueillir et formaliser un besoin avant de développer une solution sur mesure.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE3.02">
-						<div class="ce-top">
-							<h4>CE3.02 <span class="ce-sub">documenter le travail réalisé</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Produire une documentation claire : README, commentaires, guides, diagrammes.</p>
-						<span class="proj-count">Détail 3 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE3.03">
-						<div class="ce-top">
-							<h4>CE3.03 <span class="ce-sub">utiliser les outils numériques à bon escient</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Maîtriser les outils (Git, IDE, conteneurs, CI/CD) au service de la qualité.</p>
-						<span class="proj-count">Détail 1 projet</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE3.04">
-						<div class="ce-top">
-							<h4>CE3.04 <span class="ce-sub">choisir les outils de développement adaptés</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Justifier le choix d'un langage, framework ou bibliothèque selon le problème.</p>
-						<span class="proj-count">Détail 3 projets</span>
-					</div>
-					<div class="ce-card" data-target-ce="CE3.05">
-						<div class="ce-top">
-							<h4>CE3.05 <span class="ce-sub">intégrer les problématiques de sécurité</span></h4>
-							<span class="arrow">↗</span>
-						</div>
-						<p>Penser la sécurité dès la conception : validation, secrets, authentification, données.</p>
-						<span class="proj-count">Détail 2 projets</span>
-					</div>
-				</div>
-			</div>
-		</section>
+            <h3 class="category-title">Projets en Formation</h3>
+            <div class="project-grid">
 
-		<section id="projets" class="reveal">
-			<div class="projets-section-header">
-				<h2><span class="accent">#</span> Mes Réalisations</h2>
-				<button id="reset-filter-btn" class="btn-reset hidden">✖ Réinitialiser le filtre</button>
-			</div>
+                <div class="card project-card" data-ce="CE1.05">
+                    <div class="project-header">
+                        <h3>Sensibilisation à l'hygiène informatique et à la cybersécurité</h3>
+                        <span class="badge">Oral</span>
+                    </div>
+                    <h4>Hygiène informatique et menaces</h4>
+                    <p class="project-desc">Contexte : Nous avons dû étudier un sujet concernant la cybersécurité et le présenter à l'oral. Mon groupe et moi avons choisi les failles 0-days, en analysant leurs risques majeurs et la complexité de leur remédiation avant publication officielle.</p>
+                    <div class="preuves">
+                        <h5>Preuves & Livrables</h5>
+                        <div class="proof-grid">
+                            <img src="src/images/0day1.png" alt="Soutenance de Projet - Slide de Titre" class="project-img">
+                            <img src="src/images/0day2.png" alt="Soutenance de Projet - Diagramme de Conclusion" class="project-img">
+                        </div>
+                    </div>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE1.05</span>
+                    </div>
+                    <div class="tags">
+                        <span>Cybersécurité</span> <span>0-Days</span> <span>Soutenance Oral</span> <span>Sensibilisation</span>
+                    </div>
+                </div>
 
-			<h3 class="category-title">Projets en Formation</h3>
-			<div class="project-grid">
+                <div class="card project-card" data-ce="CE1.01 CE1.03 CE1.04">
+                    <div class="project-header">
+                        <h3>S'initier aux réseaux informatiques</h3>
+                        <span class="badge">Administrer</span>
+                    </div>
+                    <h4>Succursale RTC</h4>
+                    <p class="project-desc">Contexte : En tant que technicien réseau, préparer et configurer le réseau local d'une succursale d'entreprise (société RTC) à l'aide du simulateur EVE-NG.<br><br>Travaux réalisés : Choix des équipements (commutateurs Cisco 2960, routeurs 2800), découpage en VLANs (Direction, Utilisateurs, Serveurs, Administrateur), plan d'adressage IP avec masques variables, mise en place du DHCP et du routage inter-VLAN, puis tests de connectivité.</p>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE1.01</span>
+                        <span class="ce-badge">CE1.03</span>
+                        <span class="ce-badge">CE1.04</span>
+                    </div>
+                    <div class="tags">
+                        <span>EVE-NG</span> <span>VLAN</span> <span>DHCP</span> <span>Cisco</span> <span>Routage inter-VLAN</span> <span>Plan d'adressage</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE1.05">
-					<div class="project-header">
-						<h3>Sensibilisation à l'hygiène informatique et à la cybersécurité</h3>
-						<span class="badge">Oral</span>
-					</div>
-					<h4>Hygiène informatique et menaces</h4>
-					<p class="project-desc">Contexte : Nous avons dû étudier un sujet concernant la cybersécurité et le présenter à l'oral. Mon groupe et moi avons choisi les failles 0-days, en analysant leurs risques majeurs et la complexité de leur remédiation avant publication officielle.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid">
-							<img src="images/0day1.png" alt="Soutenance de Projet - Slide de Titre" class="project-img">
-							<img src="images/0day2.png" alt="Soutenance de Projet - Diagramme de Conclusion" class="project-img">
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE1.05</span>
-					</div>
-					<div class="tags">
-						<span>Cybersécurité</span> <span>0-Days</span> <span>Soutenance Oral</span> <span>Sensibilisation</span>
-					</div>
-				</div>
+                <div class="card project-card" data-ce="CE1.01 CE1.02 CE1.03 CE1.04">
+                    <div class="project-header">
+                        <h3>Construire un réseau informatique pour une petite structure</h3>
+                        <span class="badge">Administrer</span>
+                    </div>
+                    <h4>SAE Réseau GNS3</h4>
+                    <p class="project-desc">Contexte : Consolidation du savoir-faire sur le matériel de niveau 2 et 3, en construisant un réseau local complet sous GNS3 (réseau 192.168.32.0/20 partagé).<br><br>Travaux réalisés : Création des VLANs (administration, développeur, administrateur), VLAN natif déplacé et tagué, routage inter-VLAN, équilibrage de charge avec Spanning-tree, routage RIP v2, services (FTP, Apache, rsync), et sécurité (port-security, ACL sur les routeurs).</p>
+                    <div class="preuves">
+                        <h5>Preuves & Livrables</h5>
+                        <div class="proof-grid" style="grid-template-columns: 1fr;">
+                            <img src="src/images/gns3.png" alt="Topologie Réseau Complète sous GNS3" class="project-img">
+                        </div>
+                    </div>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE1.01</span>
+                        <span class="ce-badge">CE1.02</span>
+                        <span class="ce-badge">CE1.03</span>
+                        <span class="ce-badge">CE1.04</span>
+                    </div>
+                    <div class="tags">
+                        <span>GNS3</span> <span>VLAN</span> <span>RIP v2</span> <span>Spanning-tree</span> <span>ACL</span> <span>Port-security</span> <span>FTP</span> <span>Apache</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE1.01 CE1.03 CE1.04">
-					<div class="project-header">
-						<h3>S'initier aux réseaux informatiques</h3>
-						<span class="badge">Administrer</span>
-					</div>
-					<h4>Succursale RTC</h4>
-					<p class="project-desc">Contexte : En tant que technicien réseau, préparer et configurer le réseau local d'une succursale d'entreprise (société RTC) à l'aide du simulateur EVE-NG.<br><br>Travaux réalisés : Choix des équipements (commutateurs Cisco 2960, routeurs 2800), découpage en VLANs (Direction, Utilisateurs, Serveurs, Administrateur), plan d'adressage IP avec masques variables, mise en place du DHCP et du routage inter-VLAN, puis tests de connectivité.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid">
-							<div class="proof-placeholder">🖼️ Emplacement vide — schéma de l'architecture ou capture EVE-NG.</div>
-							<div class="proof-placeholder">📊 Emplacement vide — test de ping / vérification.</div>
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE1.01</span>
-						<span class="ce-badge">CE1.03</span>
-						<span class="ce-badge">CE1.04</span>
-					</div>
-					<div class="tags">
-						<span>EVE-NG</span> <span>VLAN</span> <span>DHCP</span> <span>Cisco</span> <span>Routage inter-VLAN</span> <span>Plan d'adressage</span>
-					</div>
-				</div>
+                <div class="card project-card" data-ce="CE2.02">
+                    <div class="project-header">
+                        <h3>Dispositif de transmission</h3>
+                        <span class="badge">Connecter</span>
+                    </div>
+                    <h4>Caractérisation physique des signaux</h4>
+                    <p class="project-desc">Contexte : Découverte d'un dispositif de transmission rattaché à la compétence Connecter dans le relevé de notes. Analyse approfondie des composants électroniques et physiques nécessaires au transit des données analogiques et numériques, incluant la simulation Packet Tracer et l'évaluation spectrale des débits.</p>
+                    <div class="preuves">
+                        <h5>Preuves & Livrables</h5>
+                        <div class="proof-grid" style="grid-template-columns: 1fr; gap: 0.8rem;">
+                            <img src="src/images/sae1.png" alt="Maquette d'infrastructure Cisco Packet Tracer" class="project-img">
+                            <img src="src/images/sae2.png" alt="Rapport de Mesures de puissances 802.11g via JPerf" class="project-img">
+                            <img src="src/images/sae3.jpg" alt="Cartographie Heatmap de couverture Wi-Fi - Acrylic" class="project-img">
+                        </div>
+                    </div>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE2.02</span>
+                    </div>
+                    <div class="tags">
+                        <span>Transmission</span> <span>Signal</span> <span>Mesures</span> <span>Packet Tracer</span> <span>Wi-Fi Heatmap</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE1.01 CE1.02 CE1.03 CE1.04">
-					<div class="project-header">
-						<h3>Construire un réseau informatique pour une petite structure</h3>
-						<span class="badge">Administrer</span>
-					</div>
-					<h4>SAE Réseau GNS3</h4>
-					<p class="project-desc">Contexte : Consolidation du savoir-faire sur le matériel de niveau 2 et 3, en construisant un réseau local complet sous GNS3 (réseau 192.168.32.0/20 partagé).<br><br>Travaux réalisés : Création des VLANs (administration, développeur, administrateur), VLAN natif déplacé et tagué, routage inter-VLAN, équilibrage de charge avec Spanning-tree, routage RIP v2, services (FTP, Apache, rsync), et sécurité (port-security, ACL sur les routeurs).</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid" style="grid-template-columns: 1fr;">
-							<img src="images/gns3.png" alt="Topologie Réseau Complète sous GNS3" class="project-img">
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE1.01</span>
-						<span class="ce-badge">CE1.02</span>
-						<span class="ce-badge">CE1.03</span>
-						<span class="ce-badge">CE1.04</span>
-					</div>
-					<div class="tags">
-						<span>GNS3</span> <span>VLAN</span> <span>RIP v2</span> <span>Spanning-tree</span> <span>ACL</span> <span>Port-security</span> <span>FTP</span> <span>Apache</span>
-					</div>
-				</div>
+                <div class="card project-card" data-ce="CE3.02 CE3.03 CE3.04">
+                    <div class="project-header">
+                        <h3>Se présenter sur Internet</h3>
+                        <span class="badge">Programmer</span>
+                    </div>
+                    <h4>Site CV Responsive</h4>
+                    <p class="project-desc">Contexte : Créer une page web présentant son curriculum vitae, accompagnée d'au moins deux pages détaillant des parties du CV, le tout mis en page par un seul fichier CSS.<br><br>Travaux réalisés : Structure HTML sémantique (header, sections), présentation des compétences en flexbox, liens à ancre vers les pages de détail (formations, diplômes, expériences).</p>
+                    <div class="preuves">
+                        <h5>Lien de déploiement</h5>
+                        <div style="margin-top: 0.5rem;">
+                            <a href="https://antoineth123.github.io/cv-thomann.github.io/" target="_blank" class="btn-primary" style="display: block; text-align: center; font-size: 0.85rem; padding: 0.5rem 1rem; text-transform: none;">🔗 Visiter mon Site CV en ligne</a>
+                        </div>
+                    </div>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE3.02</span>
+                        <span class="ce-badge">CE3.03</span>
+                        <span class="ce-badge">CE3.04</span>
+                    </div>
+                    <div class="tags">
+                        <span>HTML</span> <span>CSS</span> <span>Flexbox</span> <span>Web</span> <span>Responsive</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE2.02">
-					<div class="project-header">
-						<h3>Dispositif de transmission</h3>
-						<span class="badge">Connecter</span>
-					</div>
-					<h4>Caractérisation physique des signaux</h4>
-					<p class="project-desc">Contexte : Découverte d'un dispositif de transmission rattaché à la compétence Connecter dans le relevé de notes. Analyse approfondie des composants électroniques et physiques nécessaires au transit des données analogiques et numériques, incluant la simulation Packet Tracer et l'évaluation spectrale des débits.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid" style="grid-template-columns: 1fr; gap: 0.8rem;">
-							<img src="images/sae1.png" alt="Maquette d'infrastructure Cisco Packet Tracer" class="project-img">
-							<img src="images/sae2.png" alt="Rapport de Mesures de puissances 802.11g via JPerf" class="project-img">
-							<img src="images/sae3.png" alt="Cartographie Heatmap de couverture Wi-Fi - Acrylic" class="project-img">
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE2.02</span>
-					</div>
-					<div class="tags">
-						<span>Transmission</span> <span>Signal</span> <span>Mesures</span> <span>Packet Tracer</span> <span>Wi-Fi Heatmap</span>
-					</div>
-				</div>
+                <div class="card project-card" data-ce="CE2.01 CE2.02 CE2.03">
+                    <div class="project-header">
+                        <h3>Mesurer et caractériser un signal ou un système</h3>
+                        <span class="badge">Connecter</span>
+                    </div>
+                    <h4>Web Radio Portative Stéréo</h4>
+                    <p class="project-desc">Contexte : Concevoir une web radio portable permettant d'écouter des stations internet (MP3/AAC) en stéréo, et de contrôler stations, volume, tonalité et spatialisation depuis un téléphone.<br><br>Travaux réalisés : Prise en main de la carte Adafruit HUZZAH32 (ESP32) et du codec VS1053 via le bus SPI, programmation sous l'IDE Arduino (bibliothèques Baldram, ESP32_VS1053_Stream), gestion du WiFi (WiFiManager) et pilotage à distance via le protocole MQTT et l'application IoT MQTT Panel.</p>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE2.01</span>
+                        <span class="ce-badge">CE2.02</span>
+                        <span class="ce-badge">CE2.03</span>
+                    </div>
+                    <div class="tags">
+                        <span>ESP32</span> <span>VS1053</span> <span>Arduino</span> <span>SPI</span> <span>MQTT</span> <span>WiFiManager</span> <span>Anglais technique</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE3.02 CE3.03 CE3.04">
-					<div class="project-header">
-						<h3>Se présenter sur Internet</h3>
-						<span class="badge">Programmer</span>
-					</div>
-					<h4>Site CV Responsive</h4>
-					<p class="project-desc">Contexte : Créer une page web présentant son curriculum vitae, accompagnée d'au moins deux pages détaillant des parties du CV, le tout mis en page par un seul fichier CSS.<br><br>Travaux réalisés : Structure HTML sémantique (header, sections), présentation des compétences en flexbox, liens à ancre vers les pages de détail (formations, diplômes, expériences).</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div style="margin-top: 0.5rem;">
-							<a href="https://antoineth123.github.io/cv-thomann.github.io/" target="_blank" class="btn-primary" style="display: block; text-align: center; font-size: 0.85rem; padding: 0.5rem 1rem; text-transform: none;">🔗 Visiter mon Site CV en ligne</a>
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE3.02</span>
-						<span class="ce-badge">CE3.03</span>
-						<span class="ce-badge">CE3.04</span>
-					</div>
-					<div class="tags">
-						<span>HTML</span> <span>CSS</span> <span>Flexbox</span> <span>Web</span> <span>Responsive</span>
-					</div>
-				</div>
+                <div class="card project-card" data-ce="CE3.01 CE3.02 CE3.04 CE3.05">
+                    <div class="project-header">
+                        <h3>Trauter des données</h3>
+                        <span class="badge">Programmer</span>
+                    </div>
+                    <h4>Outil d'Analyse de Stockage & Reporting</h4>
+                    <p class="project-desc">Contexte : Développer un outil de « reporting » pour aider un administrateur système à localiser les gros fichiers d'une arborescence et libérer de l'espace disque.<br><br>Travaux réalisés : Scripts Python (parcours récursif avec pathlib, tri par taille, export JSON), interface graphique PyQt5 (fenêtre à onglets, camembert des tailles, légendes avec cases à cocher), et génération d'un script PowerShell de suppression des fichiers sélectionnés.</p>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE3.01</span>
+                        <span class="ce-badge">CE3.02</span>
+                        <span class="ce-badge">CE3.04</span>
+                        <span class="ce-badge">CE3.05</span>
+                    </div>
+                    <div class="tags">
+                        <span>Python</span> <span>PyQt5</span> <span>pathlib</span> <span>JSON</span> <span>PowerShell</span> <span>Camembert</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE2.01 CE2.02 CE2.03">
-					<div class="project-header">
-						<h3>Mesurer et caractériser un signal ou un système</h3>
-						<span class="badge">Connecter</span>
-					</div>
-					<h4>Web Radio Portative Stéréo</h4>
-					<p class="project-desc">Contexte : Concevoir une web radio portable permettant d'écouter des stations internet (MP3/AAC) en stéréo, et de contrôler stations, volume, tonalité et spatialisation depuis un téléphone.<br><br>Travaux réalisés : Prise en main de la carte Adafruit HUZZAH32 (ESP32) et du codec VS1053 via le bus SPI, programmation sous l'IDE Arduino (bibliothèques Baldram, ESP32_VS1053_Stream), gestion du WiFi (WiFiManager) et pilotage à distance via le protocole MQTT et l'application IoT MQTT Panel.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid">
-							<div class="proof-placeholder">🖼️ Emplacement vide — montage des cartes.</div>
-							<div class="proof-placeholder">📱 Emplacement vide — interface IoT MQTT Panel.</div>
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE2.01</span>
-						<span class="ce-badge">CE2.02</span>
-						<span class="ce-badge">CE2.03</span>
-					</div>
-					<div class="tags">
-						<span>ESP32</span> <span>VS1053</span> <span>Arduino</span> <span>SPI</span> <span>MQTT</span> <span>WiFiManager</span> <span>Anglais technique</span>
-					</div>
-				</div>
+                <div class="card project-card" data-ce="CE3.01 CE3.02 CE3.04 CE3.05">
+                    <div class="project-header">
+                        <h3>Gestionnaire d'Absences Django</h3>
+                        <span class="badge">SAE 2.03</span>
+                    </div>
+                    <h4>De la base MySQL au déploiement Multi-VM</h4>
+                    <p class="project-desc">Conception d'une application de gestion des absences du département. Modélisation initiale de la base de données relationnelle sous MySQL, développement complet des 5 modules CRUD (Étudiants, Groupes, Enseignants, Cours, Absences) et intégration de l'interface utilisateur via des templates HTML/CSS dynamiques. Implémentation d'un système d'importation de données par fichiers CSV et d'un module de téléversement de justificatifs au format PDF. Déploiement final de l'infrastructure de production sur deux serveurs virtuels Debian 13 distincts.</p>
+                    <div class="preuves">
+                        <h5>Preuves & Livrables</h5>
+                        <div class="proof-grid" style="grid-template-columns: repeat(2, 1fr); gap: 0.5rem;">
+                            <img src="src/images/crud1.png" alt="Modèle ORM Django" class="project-img">
+                            <img src="src/images/crud2.png" alt="Routage URL Patterns" class="project-img">
+                            <img src="src/images/crud3.png" alt="Logique des Views Django" class="project-img">
+                            <img src="src/images/crud4.png" alt="Validation Formulaires Forms" class="project-img">
+                        </div>
+                    </div>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE3.01</span>
+                        <span class="ce-badge">CE3.02</span>
+                        <span class="ce-badge">CE3.04</span>
+                        <span class="ce-badge">CE3.05</span>
+                    </div>
+                    <div class="tags">
+                        <span>Django</span> <span>MySQL</span> <span>HTML5 / CSS3</span> <span>CSV & PDF</span> <span>Debian 13</span>
+                    </div>
+                </div>
 
-				<div class="card project-card" data-ce="CE3.01 CE3.02 CE3.04 CE3.05">
-					<div class="project-header">
-						<h3>Trauter des données</h3>
-						<span class="badge">Programmer</span>
-					</div>
-					<h4>Outil d'Analyse de Stockage & Reporting</h4>
-					<p class="project-desc">Contexte : Développer un outil de « reporting » pour aider un administrateur système à localiser les gros fichiers d'une arborescence et libérer de l'espace disque.<br><br>Travaux réalisés : Scripts Python (parcours récursif avec pathlib, tri par taille, export JSON), interface graphique PyQt5 (fenêtre à onglets, camembert des tailles, légendes avec cases à cocher), et génération d'un script PowerShell de suppression des fichiers sélectionnés.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid">
-							<div class="proof-placeholder">🖥️ Emplacement vide — capture de l'interface (camembert + légendes).</div>
-							<div class="proof-placeholder">📄 Emplacement vide — extrait de code ou du fichier JSON.</div>
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE3.01</span>
-						<span class="ce-badge">CE3.02</span>
-						<span class="ce-badge">CE3.04</span>
-						<span class="ce-badge">CE3.05</span>
-					</div>
-					<div class="tags">
-						<span>Python</span> <span>PyQt5</span> <span>pathlib</span> <span>JSON</span> <span>PowerShell</span> <span>Camembert</span>
-					</div>
-				</div>
+            </div>
 
-				<div class="card project-card" data-ce="CE3.01 CE3.02 DE3.04 CE3.05">
-					<div class="project-header">
-						<h3>Gestionnaire d'Absences Django</h3>
-						<span class="badge">SAE 2.03</span>
-					</div>
-					<h4>De la base MySQL au déploiement Multi-VM</h4>
-					<p class="project-desc">Conception d'une application de gestion des absences du département. Modélisation initiale de la base de données relationnelle sous MySQL, développement complet des 5 modules CRUD (Étudiants, Groupes, Enseignants, Cours, Absences) et intégration de l'interface utilisateur via des templates HTML/CSS dynamiques. Implémentation d'un système d'importation de données par fichiers CSV et d'un module de téléversement de justificatifs au format PDF. Déploiement final de l'infrastructure de production sur deux serveurs virtuels Debian 13 distincts.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<div class="proof-grid" style="grid-template-columns: repeat(2, 1fr); gap: 0.5rem;">
-							<img src="images/crud1.png" alt="Modèle ORM Django" class="project-img">
-							<img src="images/crud2.png" alt="Routage URL Patterns" class="project-img">
-							<img src="images/crud3.png" alt="Logique des Views Django" class="project-img">
-							<img src="images/crud4.png" alt="Validation Formulaires Forms" class="project-img">
-						</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE3.01</span>
-						<span class="ce-badge">CE3.02</span>
-						<span class="ce-badge">CE3.04</span>
-						<span class="ce-badge">CE3.05</span>
-					</div>
-					<div class="tags">
-						<span>Django</span> <span>MySQL</span> <span>HTML5 / CSS3</span> <span>CSV & PDF</span> <span>Debian 13</span>
-					</div>
-				</div>
+            <h3 class="category-title">Projets Personnels</h3>
+            <div class="project-grid single">
 
-			</div>
+                <div class="card project-card" data-ce="CE1.02">
+                    <div class="project-header">
+                        <h3>Serveur DNS & Filtrage Local</h3>
+                        <span class="badge outline">Autodidacte</span>
+                    </div>
+                    <h4>Sécurisation & Blocage de trackers</h4>
+                    <p class="project-desc">Contexte : Déploiement en réseau domestique (Homelab) d'une instance Pi-hole virtualisée sous Debian 13 afin de filtrer la publicité et de neutraliser les requêtes télémétriques. Isolation conteneurisée à l'aide de Docker Compose, routage reverse proxy via Nginx Proxy Manager (résolutions locales en *.local) et durcissement des règles de filtrage par pare-feu UFW.</p>
+                    <div class="preuves">
+                        <h5>Preuves & Livrables</h5>
+                        <img src="src/images/dns.png" alt="Dashboard et Architecture Serveur DNS Pi-hole" class="project-img">
+                        <p style="color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin-top: 0.5rem; text-align: center;">🐳 Configuration docker-compose.yml / Zones DNS locales</p>
+                    </div>
+                    <div class="badges-ce">
+                        <span class="ce-badge">CE1.02</span>
+                    </div>
+                    <div class="tags">
+                        <span>Pi-hole</span> <span>Docker Compose</span> <span>Debian 13</span> <span>Nginx Proxy</span> <span>UFW Firewall</span>
+                    </div>
+                </div>
 
-			<h3 class="category-title">Projets Personnels</h3>
-			<div class="project-grid single">
+            </div>
+        </section>
 
-				<div class="card project-card" data-ce="CE1.02">
-					<div class="project-header">
-						<h3>Serveur DNS & Filtrage Local</h3>
-						<span class="badge outline">Autodidacte</span>
-					</div>
-					<h4>Sécurisation & Blocage de trackers</h4>
-					<p class="project-desc">Déploiement en réseau domestique (Homelab) d'une instance Pi-hole virtualisée sous Debian 13 afin de filtrer la publicité et de neutraliser les requêtes télémétriques. Isolation conteneurisée à l'aide de Docker Compose, routage reverse proxy via Nginx Proxy Manager (résolutions locales en *.local) et durcissement des règles de filtrage par pare-feu UFW.</p>
-					<div class="preuves">
-						<h5>Preuves & Livrables</h5>
-						<img src="images/dns.jpg" alt="Dashboard et Architecture Serveur DNS Pi-hole" class="project-img">
-						<div class="proof-placeholder" style="margin-top: 0.5rem;">🐳 Fichier docker-compose.yml / Configuration des zones DNS</div>
-					</div>
-					<div class="badges-ce">
-						<span class="ce-badge">CE1.02</span>
-					</div>
-					<div class="tags">
-						<span>Pi-hole</span> <span>Docker Compose</span> <span>Debian 13</span> <span>Nginx Proxy</span> <span>UFW Firewall</span>
-					</div>
-				</div>
+        <section id="experience" class="reveal">
+            <h2><span class="accent">#</span> Expérience Professionnelle</h2>
+            <div class="card exp-card">
+                <div class="exp-header">
+                    <h3>Stagiaire en Informatique</h3>
+                    <span class="date">2021</span>
+                </div>
+                <p class="meta accent">Origins Infos System</p>
+                <p class="description">Découverte initiale du monde de l'entreprise au sein d'un service informatique. Observation active et initiation pratique aux tâches d'administration système, à la maintenance courante de postes utilisateurs et à la supervision des infrastructures réseaux physiques de la société.</p>
+            </div>
+        </section>
 
-			</div>
-		</section>
+        <section id="contact" class="reveal">
+            <h2><span class="accent">#</span> Me contacter</h2>
+            <div class="card contact-card">
+                <ul class="contact-list">
+                    <li><span class="accent">📞 Téléphone :</span> 06 64 11 90 61</li>
+                    <li><span class="accent">📧 Email :</span> <a href="mailto:anthomann68@outlook.fr">anthomann68@outlook.fr</a></li>
+                    <li><span class="accent">💼 LinkedIn :</span> <a href="https://www.linkedin.com/in/antoine-thomann/" target="_blank" rel="noopener">Antoine THOMANN</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-		<section id="experience" class="reveal">
-			<h2><span class="accent">#</span> Expérience Professionnelle</h2>
-			<div class="card exp-card">
-				<div class="exp-header">
-					<h3>Stagiaire en Informatique</h3>
-					<span class="date">2021</span>
-				</div>
-				<p class="meta accent">Origins Infos System</p>
-				<p class="description">Découverte initiale du monde de l'entreprise au sein d'un service informatique. Observation active et initiation pratique aux tâches d'administration système, à la maintenance courante de postes utilisateurs et à la supervision des infrastructures réseaux physiques de la société.</p>
-			</div>
-		</section>
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
 
-		<section id="contact" class="reveal">
-			<h2><span class="accent">#</span> Me contacter</h2>
-			<div class="card contact-card">
-				<ul class="contact-list">
-					<li><span class="accent">📞 Téléphone :</span> 06 64 11 90 61</li>
-					<li><span class="accent">📧 Email :</span> <a href="mailto:anthomann68@outlook.fr">anthomann68@outlook.fr</a></li>
-					<li><span class="accent">💼 LinkedIn :</span> <a href="https://www.linkedin.com/in/antoine-thomann/" target="_blank" rel="noopener">Antoine THOMANN</a></li>
-				</ul>
-			</div>
-		</section>
-	</main>
-
-	<div id="project-modal" class="modal-overlay">
-		<div class="modal-content">
-			<span class="modal-close">&times;</span>
-			<div id="modal-body">
-			</div>
-		</div>
-	</div>
-
-	<footer>
-		<p>&copy; 2026 Antoine THOMANN. Propulsé avec passion.</p>
-	</footer>
+    <footer>
+        <p>&copy; 2026 Antoine THOMANN. Propulsé avec passion.</p>
+    </footer>
 </body>
-
 </html>
